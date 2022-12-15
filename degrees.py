@@ -137,8 +137,8 @@ def shortest_path(source, target):
                 solution.reverse()
 
     if solution_found:
-        if empty:
-            return None
+        return None
+    else:
         return solution
 
 
